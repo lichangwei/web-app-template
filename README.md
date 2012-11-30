@@ -1,4 +1,4 @@
-WebAppTemplate
-==============
+*Web App Template*
 
-Web App Template
+----------------------------------------
+
