@@ -6,7 +6,7 @@ if($.browser.msie || $.browser.safari){
   var sort = function( compare ){
     var len = this.length;
     if(len <= 1) return this;
-    compare = compare || function(a, b){ return a > b; }
+    compare = compare || function(a, b){ return a > b; };
     for(var i = 0; i < len - 1; i++){
       for(var j = i+1; j < len; j++){
         if( compare(this[i], this[j]) > 0 ){
