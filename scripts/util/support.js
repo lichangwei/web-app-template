@@ -1,0 +1,1 @@
+var nativeTransition = 'webkitTransition' in document.body.style;
